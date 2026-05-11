@@ -1,5 +1,7 @@
 # Snowflake Cortex AI on FAF5 Freight Data
 
+<img width="1584" height="684" alt="image" src="https://github.com/user-attachments/assets/869bf372-c6ff-46fa-9325-fb4ecd16e1ad" />
+
 A Snowflake Cortex Agent that answers natural-language questions about U.S. freight movements (2018–2024). End-to-end implementation using Snowflake's Cortex AI stack: **Cortex Analyst** (NL → SQL), **Cortex Search** (hybrid semantic + keyword retrieval), and **Cortex Agents** (orchestration).
 
 The agent runs over a 7.8M-row fact table of state-level freight flows from the U.S. DOT Freight Analysis Framework, with retrieval over 50 freight analyst reports for cross-modal questions that need both structured numbers and narrative context.
